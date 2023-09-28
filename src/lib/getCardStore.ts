@@ -36,6 +36,7 @@ const fetchApiCards = async (
     format,
     start_date: set.startDate,
     end_date: new Date().toISOString().slice(0, 10),
+    user_group: "top"
   };
 
   if (deck !== Deck.ALL) {
